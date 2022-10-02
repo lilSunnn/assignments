@@ -1,0 +1,184 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.section
+{
+    min-height: 100vh;
+    position: fixed;
+    left: 270px;
+    padding: 0 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+/*-----sidebar navigator-----*/
+.aside
+{
+    width: 270px;
+    background: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----logo:Jennifer attributes-----*/
+.aside .logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.aside .logo p{
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    position: relative;
+}
+
+.aside .logo p span{
+    font-family: fantasy;
+    letter-spacing: 7px;
+    font-size: 50px;
+}
+
+.aside .logo p span1{
+    font-family: cursive;
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+/*-----icon attributes-----*/
+.aside .icon{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.aside .icon img{
+    width: 150px;
+    margin-bottom: 20%;
+    margin-top: 90%;
+    position: relative;
+}
+
+/*-----nav attributes-----*/
+.aside .nav{
+    margin-top: 300px;
+}
+
+.aside .nav li{
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.aside .nav li a{
+    display: block;
+    color: #FFDCEE;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding: 5px 10px;
+}
+
+.aside .nav li a:hover{
+    color: white;
+}
+
+/*-----main part of the page-----*/
+.aboutme{
+    min-height: 100vh;
+    display: flex;
+    color: black;
+}
+
+.aboutme .aboutme-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding-left: 50px;
+    padding-right: 15px;
+}
+
+.aboutme .aboutme-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h3.hello{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+h3.hello span{
+    font-family: fantasy;
+    font-size: 30px;
+    color: #F9AFC9;
+}
+
+h3.intro{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.daydream{
+    color: #F9AFC9;
+}
+
+.aboutme-info p{
+    font-size: 20px;
+    text-align: justify;
+    word-wrap:normal;
+}
+
+.aboutme .aboutme-img img{
+    height: 400px;
+}
+
+.bunnifer{
+    color: #F9AFC9;
+    font-style: italic;
+}
